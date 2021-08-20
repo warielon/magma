@@ -1,0 +1,19 @@
+# File describing the result of the optimisation of an instance
+apiVersion: v1
+kind: magma-run
+metadata:
+  name: aseo-webapp
+  namespace: aseo-web-dev
+  author : "wariel"
+  run_time : "2021-20-08"
+data :
+  host :
+    cpu : "2,6 GHz Intel Core i7 6 cœurs"
+    ram : "16Go"
+  used :
+    cpu :
+      mean : 2.2
+      max : 3
+    ram :
+      max : "3Go"
+  time : "235s"

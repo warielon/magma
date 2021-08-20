@@ -1,0 +1,13 @@
+# File describing the result of the optimisation of an instance
+apiVersion: v1
+kind: magma-instance
+metadata:
+  author : "wariel"
+  run_time : "2021-20-08"
+data :
+  name : "dkg813"
+  input : 
+    size : 131
+    EDGE_WEIGHT_TYPE : "euclidian"
+  best_solution :
+    length : 3199
